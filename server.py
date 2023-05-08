@@ -18,7 +18,7 @@ def get_weather(data):
     BASE_URL= "http://api.openweathermap.org/data/2.5/weather?"
     API_KEY= "f1b1af4594b289ef32467e44f61e0830"
     city = data['city']
-    url= BASE_URL + "appid=" + API_KEY + "&q=" + CITY
+    url= BASE_URL + "appid=" + API_KEY + "&q=" + city
     
     response= requests.get(url).json()
     data = {
