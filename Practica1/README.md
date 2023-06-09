@@ -1,4 +1,4 @@
-# Pràctica 1 EditableBufferedReader 
+# EditableBufferedReader – Pràctica 1
 This project, developed by Arnau Escolà and Carlota Julbe, is a part of the SAD course for the academic year 2022-2023.
 
 ## Project Components
